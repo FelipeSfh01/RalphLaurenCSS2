@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Formulário CSS</title>
+</head>
+<body>
+    <div id="container">
+        <form action="teste.php" method="get">
+            <h1> Ralph Lauren © </h1> 
+            <hr>     
+            <div class="grupo">
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="Digite o Nome" name="nome">
+                
+                <label for="nome">CPF</label>
+                <input type="text" placeholder="Digite Apenas Números" name="nome">
+            </div>
+
+            <div class="grupo">
+                <label for="pais">País</label>
+                <select name="pais">
+                    <option value="US">Estados Unidos</option>
+                    <option value="BR">Brasil</option>
+                    <option value="CA">Canadá</option>
+                    <option value="AU">Austrália</option>
+                    <option value="PO">Portugal</option>
+                    <option value="UK">Reino Unido</option>
+                    <option value="ES">Espanha</option>
+                    <option value="IT">Itália</option>
+                    <option value="FR">França</option>
+                    <option value="ME">Mexico</option>
+                    <option value="SE">Suécia</option>
+                    <option value="GER">Alemanhã</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <fieldset>
+                    <legend>Telefone</legend>
+
+                    <label for="res">Residencial</label>
+                    <input type="text" name="res" placeholder="Residencial">
+
+                    <label for="com">Comercial</label>
+                    <input type="text" name="com" placeholder="Comercial">
+                </fieldset>
+            </div>
+            <div class= "grupo">
+                <label for="email">E-Mail</label>
+                <input type="text" placeholder="Digite o Seu E-Mail" name="nome">
+                
+                <label for="senha">Senha</label>
+                <input type="text" placeholder="Digite a Senha do E-Mail" name="nome">
+
+            </div>
+            <div class="grupo">
+                <fieldset class="gen">
+                    <legend>Gênero</legend>
+
+                    <label for="rfem">Feminino</label>
+                    <input type="radio" name="rgen" value="F">
+
+                    <label for="rmas">Masculino</label>
+                    <input type="radio" name="rgen" value="M">
+                </fieldset>
+            </div>
+
+            <div class="grupo">
+                <input type="submit" value="Enviar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+            </div>
+
+            <div class= "links">
+                <a href="index.html">Continuar sem Login</a>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

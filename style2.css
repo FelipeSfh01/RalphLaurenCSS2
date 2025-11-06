@@ -1,0 +1,64 @@
+*{
+border-radius: 20px;
+font-size:20px;
+box-sizing: border-box;
+}
+
+#container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5%;
+border: 2px solid rgb(59, 59, 59);
+background-image: linear-gradient(to right, white, rgb(116, 115, 115));
+padding: 10px;
+}
+
+.grupo{
+width: 60vi;/*% vertical*/
+}
+
+input, select,fieldset {
+width: 90%;
+padding: 5px;
+border:2px solid rgb(100, 100, 100);
+margin-top:2px;
+}
+
+input[type=radio]{
+width:5%;
+}
+
+.btn{
+background-color: rgb(80, 80, 80);
+color: white;
+border: 0px solid rgb(0, 0, 0);
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+label{
+display: block;
+}
+
+.gen label{
+display: inline;
+}
+
+a {
+display: inline-block;
+padding: 8px 16px;
+margin: 5px;
+background-color: rgb(80, 80, 80);
+color: rgb(255, 255, 255);
+border-radius: 100px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+
+.links {
+text-align: left;
+}
+
+h1 {
+    font-size: xx-large;
+}
